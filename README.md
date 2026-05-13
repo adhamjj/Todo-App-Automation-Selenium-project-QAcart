@@ -40,7 +40,7 @@ To see the results of the latest test run:
 1. Ensure you have Allure installed.
 2. Run the command:
    ```bash
-   <img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/d6e5d516-dd1a-4a0e-afa5-0909879f427b" />
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/1fcb54cd-b6d0-4b60-803f-ed8de3a78aa4" />
 
 <img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/6f0cc800-59d5-4270-bf43-c5b62e810f62" />
 
