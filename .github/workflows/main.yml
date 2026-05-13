@@ -12,6 +12,7 @@ jobs:
         uses: actions/setup-java@v4
         with:
           java-version: '11'
-          distribution: 'temurin'
+          distribution: 'murine'
       - name: Run Tests
         run: mvn clean test
+        # trigger action
