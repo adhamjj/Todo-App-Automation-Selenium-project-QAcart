@@ -3,6 +3,7 @@ package com.qacart.todo.factory;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.safari.SafariDriver;
 
@@ -16,8 +17,13 @@ public class DriverFactory {
         WebDriver driver;
         switch (browser){
             case "CHROME":
-                    WebDriverManager.chromedriver().setup();
-                    driver =new ChromeDriver();
+                ChromeOptions options = new ChromeOptions();
+                options.addArguments("--headless=new");
+                options.addArguments("--no-sandbox");
+                options.addArguments("--disable-dev-shm-usage");
+                options.addArguments("--window-size=1920,1080");
+                WebDriverManager.chromedriver().setup();
+                driver = new ChromeDriver(options);
                 break;
             case "FIREFOX":
                 WebDriverManager.firefoxdriver().setup();
