@@ -40,8 +40,8 @@ To see the results of the latest test run:
 1. Ensure you have Allure installed.
 2. Run the command:
    ```bash
-   <img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/6408182d-f009-4a87-8b81-da831cd868d2" />
-   <img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/9db57139-70eb-48bc-b75e-17dc4bd74872" />
+   <img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/d6e5d516-dd1a-4a0e-afa5-0909879f427b" />
+
 <img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/6f0cc800-59d5-4270-bf43-c5b62e810f62" />
 
 <img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/2aaea457-254c-45c3-b28f-e5157467c096" />
