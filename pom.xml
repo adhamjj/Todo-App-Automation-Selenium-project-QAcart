@@ -22,7 +22,7 @@
                 <configuration>
                     <threadCount>1</threadCount>
                     <argLine>
-                        -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/{1.9.20.1}/aspectjweaver-{1.9.20.1}.jar"                    </argLine>
+                        -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/1.9.20.1/aspectjweaver-1.9.20.1.jar"                    </argLine>
                 </configuration>
                 <dependencies>
                     <dependency>
